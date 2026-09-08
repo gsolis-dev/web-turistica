@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Conexión con Google Fonts para utilizar la tipografía del sitio -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!--Conecta la tipografia poppins-->
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel="stylesheet"><!--Conecta los iconos del formulario-->
+    <title>San Blas</title>
+</head>
+<body>
+    <header>
+        <nav>  <!-- Menú del sitio-->             
+           <ul>
+            <li><a href="#portada">San Blas</a></li>
+            <li><a href="#">Isla Caiman</a></li>
+            <li><a href="#">Isla Coiba</a></li>
+           </ul> 
+        </nav>
+    </header>
+    <main>
+        <!--Portada o sección principal-->   
+        <section class="portada">
+            <div id="portada">
+                <h1> Viaje a las Islas de San Blas</h1>
+                <p>Paraíso en Panamá con TravelInc</p>
+                <a href="#link">Reservar</a>
+            </div>
+        </section>
+
+        <!-- Sección con una introducción sobre San Blas y sus principales atractivos -->
+        <section class="seccion-contenido">
+            <h2>Las Islas de San Blas tambíen conocida como <strong>Guna Yala</strong>, son uno de los destinos más hermosos y naturales de Panamá. Sus <strong>aguas cristalinas</strong>, arena blanca y <strong>cultura</strong> indígena Guna la convierten en el lugar perfecto para desconectarse, relajarse y vivir una experiencia <strong>inolvidable.</strong></h2>
+        </section>
+
+        <!-- Galería de imágenes de San Blas con enlaces a videos relacionados -->
+        <section class="galeria">
+            <a href="https://youtu.be/-WrSILc5Jbg?si=4lBi8RAXP_wwivWd">
+                <img src="imagenes/aguas-cristalinas.jpg" alt="Aguas cristalinas de las Islas de San Blas">
+            </a>
+            <a href="https://youtu.be/VFn1knSFRYQ?si=-uBP2sRN_P04ROjd">
+                <img src="imagenes/transporte-a-la-isla.jpg" alt="Transporte en lancha hacia las Islas de San Blas">
+            </a>
+            <a href="https://youtu.be/eIsktlfv43I?si=cFuIFlqktqfSY7Fr">
+                <img src="imagenes/paraiso.jpg" alt="Paisaje paradisíaco de las Islas de San Blas">
+            </a>
+            <a href="https://youtu.be/S9PFRPH0NS8?si=_mMZaPRHHtbZAndK">
+                <img src="imagenes/playas.jpg" alt="Playa de arena blanca y aguas turquesas en San Blas">
+            </a>
+        </section>
+
+        <!-- Información turística: motivos para visitar San Blas y video relacionado -->
+        <section class="info-turistica">
+            <div class="lista"> <!--Lista de motivos-->
+                <h2>¿Por qué visitar San Blas?</h2>
+                <ul>
+                    <li>Playas virgenes con agua turquesa</li>
+                    <li>Ambiente tranquilo y natural</li>
+                    <li>Cultura Guna Auténtica y preservada</li>
+                    <li>Podrás practicar Snorkel y actividades acuáticas.</li>
+                </ul>
+            </div>
+
+            <div class="video"><!-- Video de recorrido -->
+                <iframe src="https://www.youtube.com/embed/32CA2qTGuF4?si"></iframe>
+            </div>
+        </section>
+        
+        <!-- Información sobre el viaje y audio con sonidos ambientales -->
+        <section class="seccion-contenido">
+            <div>
+                <h2>Viaja con nosotros a esta isla ubicada en la costa caribeñas, en un viaje de aproximadamente dos horas en auto, más un viaje en lancha hasta la isla seleccionada</h2>
+                <p>Escucha un poco del ambiente relajante que te espera en San Blas</p>
+
+                <audio controls>
+                    <source src="ocean-waves-250310.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </section>
+
+        <!-- Tabla con los paquetes de viaje, servicios incluidos y precios -->
+        <section class="paquetes">
+            <div>
+                <h2>Elige entre nuestros paquetes de viaje</h2>
+                <table>
+                    <tr>
+                        <th>Paquete</th>
+                        <th>Incluye</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Básico(1 día)</td>
+                        <td>Transporte - Tour a 2 Islas</td>
+                        <td>$65/persona</td>
+                    </tr>
+                    <tr>
+                        <td>Full Day Premium</td>
+                        <td>Transporte - Tour a 3 Islas - Almuerzo</td>
+                        <td>$90/persona</td>
+                    </tr>
+                    <tr>
+                        <td>Intermedio(2 días)</td>
+                        <td>Plan Básico-Hospedaje - 3 comidas</td>
+                        <td>$150/persona</td>
+                    </tr>
+                    <tr>
+                        <td>Avanzado(3 días)</td>
+                        <td>Plan Básico-Hospedaje - 9 comidas</td>
+                        <td>$230/persona</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Formulario para recopilar los datos necesarios para realizar una reserva -->
+        <section class="reservas">
+            <div class="formulario-reservas">
+                <h2>Reserva ahora</h2>
+                <form>
+                    <div class="campo-fecha">
+                        <input type="date" placeholder="Fecha de reserva" name="fecha" required>
+                    </div>
+
+                    <div class="fila-form"> <!-- Coloca en una fila los campos individuales -->
+                        <div class="campo-individual">
+                            <input type="text" placeholder="Nombre" name="name" required>
+                            <i class='bxr  bx-user'  ></i> 
+                        </div>
+
+                        <div class="campo-individual">
+                            <input type="text" placeholder="Apellido" name="last-name" required>
+                            <i class='bxr  bx-user'  ></i> 
+                        </div>
+                    </div>
+
+                    <div class="fila-form"><!-- Coloca en una fila los campos individuales -->
+                        <div class="campo-individual">
+                            <input type="number" placeholder="Número de personas" name="personas" required>
+                            <i class='bxr  bx-hail'  ></i>
+                        </div>
+
+                    <div class="campo-individual">
+                        <details>
+                            <summary>Seleccionar paquete</summary>
+
+                            <div>
+                                <input type="radio" id="basico" name="paquete" value="basico">
+                                <label for="basico">Básico (1 día)</label><br>
+
+                                <input type="radio" id="premium" name="paquete" value="premium">
+                                <label for="premium">Full Day Premium</label><br>
+
+                                <input type="radio" id="2dias" name="paquete" value="2dias">
+                                <label for="2dias">Intermedio</label><br>
+
+                                <input type="radio" id="3dias" name="paquete" value="3dias">
+                                <label for="3dias">Avanzado</label><br>
+                            </div>
+                        </details>
+                    </div>
+
+                </div>
+                            <button class="boton-reserva" type="submit">Enviar</button>
+        
+                </form>
+            </div>
+            <div class="info-reserva" id="link">
+                <h2>Completa el siguiente formulario para reservar tu experiencia en las islas San Blas</h2>
+                <p>Nos comunicaremos contigo para confirmar la disponibilidad</p>
+            </div>
+            
+        </section>
+
+    </main>
+    
+    <footer>
+         <p>©2026 Viaje a Islas San Blas- Derechos reservados a TravelInc</p>
+    </footer>
+   
+</body>
+</html>
