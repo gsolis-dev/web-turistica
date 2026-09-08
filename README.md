@@ -19,17 +19,38 @@ También se busca documentar los cambios realizados y utilizar Git y GitHub para
 
 ## Contenido de la página
 
+Contenido de la página
+
 La página está dividida en diferentes secciones:
 
-* Portada con una imagen principal y una opción para reservar.
-* Información introductoria sobre San Blas.
-* Galería de imágenes relacionadas con el destino.
-* Información sobre las razones para visitar las islas.
-* Video relacionado con San Blas.
-* Audio con sonidos ambientales.
-* Tabla con diferentes paquetes de viaje.
-* Formulario para realizar una solicitud de reserva.
-* Pie de página con la información del proyecto.
+•	Portada
+
+Es la primera parte que aparece al entrar a la página. Presenta el destino y permite acceder a la sección de reserva.
+
+•	Información sobre San Blas
+
+Ahí contiene una breve explicación sobre las Islas de San Blas y algunos aspectos relacionados con la cultura Guna.
+
+•	Galería de imágenes
+
+En esa sección muestra diferentes imágenes relacionadas con San Blas. Algunas de ellas también les permitira ver por medios de enlaces hacia videos.
+
+•	Información turística
+
+En esta parte se visualiza algunas razones para visitar San Blas y un video relacionado con el destino.
+
+•	Audio
+
+Incluimos un audio con sonido de olas para darle un ambiente más relacionado con la temática de la página.
+
+•	Paquetes de viaje
+
+Muestra lo que es las diferentes opciones de paquetes con la información de los servicios y precios.
+
+•	Formulario de reserva
+
+Permite ingresar los datos del usuario, seleccionar una fecha, indicar la cantidad de personas y escoger el paquete de viaje.
+
 
 ## Tecnologías utilizadas
 
@@ -87,23 +108,21 @@ Entre los cambios realizados se encuentran:
 * Eliminación de código CSS repetido cuando era posible.
 * Organización de algunos estilos para facilitar su mantenimiento.
 * Mejora de los comentarios dentro del código.
-* Incorporación de textos alternativos en las imágenes.
+* Agregar etiquetas "alt" a las imágenes y cambiar nombre de raiz a las imagenes.
 * Cambio de la selección de paquetes para permitir elegir solamente un paquete.
 * Mejora de la documentación mediante este archivo README.
 
-Los cambios se realizaron manteniendo la idea y el diseño principal de la página original.
+La idea no fue cambiar completamente nuestra página, sino mejorar el trabajo que ya teníamos y hacer que el código quedara más organizado y fácil de comprender.
 
 ## Control de versiones
 
 Para llevar un registro de las modificaciones utilizamos Git y GitHub.
 
-Primero se conservó la versión original del proyecto y posteriormente se agregó la versión modificada.
+Primero se conservó la versión original del proyecto y posteriormente se agregó la versión modificada junto con distintas versiones de modificación a este README.
 
 ## Estado del proyecto
 
 La página funciona actualmente como un proyecto académico y está diseñada principalmente para visualizarse desde una computadora.
-
-El proyecto original no contaba con una adaptación completa para dispositivos móviles, por lo que este aspecto puede ser considerado como una mejora para futuras versiones.
 
 ## Aprendizaje
 
