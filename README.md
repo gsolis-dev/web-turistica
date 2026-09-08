@@ -14,6 +14,9 @@ El objetivo de este proyecto es mejorar una página web que ya había sido desar
 
 También se busca documentar los cambios realizados y utilizar Git y GitHub para llevar un registro de las diferentes versiones del proyecto.
 
+## Visualización del proyecto
+![Proyecto Web turistica](imagenes/Visualización-del-proyecto.png)
+
 ## Contenido de la página
 
 La página está dividida en diferentes secciones:
@@ -55,7 +58,9 @@ WEB-TURISTICA/
     ├── aguas-cristalinas.jpg
     ├── transporte-a-la-isla.jpg
     ├── paraiso.jpg
+    ├── visualización-del-proyecto.png
     └── playas.jpg
+    
 ```
 
 ## Características
